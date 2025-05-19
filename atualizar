@@ -1,0 +1,14 @@
+atualizar(){
+  if (keyIsDown(LEFT_ARROW)){
+  this.x += this.velocidade;
+  }
+  if(keyIsDown(RIGHT_ARROW)){
+    this.y -= this.velocidade;
+  }
+  if (keyIsDown(UP_ARROW)){
+    this.y -= this.velocidade;
+  }
+  if (keyisDown(DOWN_ARROW)){
+    
+  }
+}
