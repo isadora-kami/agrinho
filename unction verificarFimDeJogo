@@ -1,0 +1,7 @@
+function verificarFimDeJogo() {
+  if (totalArvores > 50){
+    mostrarMensagemDeVitoria();
+  } else if (temperatura > 50){
+    mostrarMensagemDeDerrota();
+  }
+}
