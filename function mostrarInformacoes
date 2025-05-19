@@ -1,0 +1,11 @@
+function mostrarInformacoes() { 
+  textSize(26);
+  fill(0);
+  text("vamos plantar árvores para reduzira a temperatura?", 10 , 30)
+  textSize(14);
+  fill('white');
+  text("temperatura:"+ temperatura.toFixed(2),10, 390);
+  text("árvores plantadas:"+ tontalArvore, 460, 390);
+  text("para movimentar o personagem use as setas do teclados.", 10, 60);
+  text("para plantar árvores use P ou espaço.", 10, 80);
+}
